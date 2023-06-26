@@ -16,5 +16,10 @@
 
 
 body{
-  background-color:darkcyan;
+  background-color: transparent !important;
+  background-image: url('hogwarts.jpg');
+}
+
+.table{
+  background-color: transparent !important;
 }
