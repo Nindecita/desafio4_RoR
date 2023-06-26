@@ -1,0 +1,24 @@
+
+
+<h1 class="text-center">Bienvenidos a Howarts</h1>
+
+<div class="tabla">
+<table class="container table table-dark table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Location</th>
+      <th scope="col">House</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @characters.each do |c| %>
+      <tr>
+        <td><%= c.name %></td>
+        <td><%= c.location %></td>
+        <td><%= c.house%></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+</div>
